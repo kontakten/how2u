@@ -1,0 +1,40 @@
+/*
+color pallet
+
+*/
+
+$gray: #2B2B2B;
+$red: #DE1B1B;
+$whitish: #F6F6F6;
+$menolikeyellow: #E9E581;
+$contentwhite: #fff;
+
+
+body,
+html{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 200;
+    background-color:$gray;
+    text-align: center;
+    p{
+        color:$whitish;
+    }
+    .header,
+    .footer{
+        h1{
+            color:$red;
+            font-family: 'Press Start 2P', cursive;
+        } 
+        button{
+            h1{
+                color:$red;
+                font-family: Verdana, Geneva, sans-serif;
+            }
+        }
+    }
+    .content{
+        h1{
+            color:$contentwhite;
+        }
+    }
+}
